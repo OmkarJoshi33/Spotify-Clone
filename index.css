@@ -1,0 +1,626 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  color: white;
+}
+body {
+  background-color: black;
+}
+body::-webkit-scrollbar {
+  visibility: hidden;
+}
+nav {
+  display: flex;
+  position: static;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+}
+.SearchndBtn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.searech {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 35%;
+}
+.searchMusic {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin: 30px;
+  padding: 0px;
+}
+.home {
+  margin: 20px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: rgba(67, 64, 64, 0.548);
+}
+.home:hover {
+  background-color: rgba(72, 71, 71, 0.548);
+}
+.search_2 {
+  display: flex;
+  border: 2px solid white;
+  border-radius: 50px;
+  height: 40px;
+  background-color: rgba(36, 35, 35, 0.971);
+}
+.search_2:hover {
+  background-color: rgba(56, 54, 54, 0.796);
+  border-color: rgba(255, 255, 255, 0.619);
+}
+.searchicon {
+  display: flex;
+  padding: 10px;
+}
+.input {
+  display: flex;
+  width: 380px;
+}
+input {
+  height: inherit;
+  width: inherit;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+.Browse {
+  display: flex;
+
+  padding: 5px;
+  margin: 5px;
+  border-left: 2px solid white;
+}
+.btns {
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+}
+.sign {
+  height: 40px;
+  width: 90px;
+  font-size: large;
+  font: bold;
+  font-weight: 800;
+  color: white;
+  background-color: black;
+  border: none;
+  outline: none;
+}
+.sign:hover {
+  font-size: larger;
+}
+.login {
+  height: 40px;
+  width: 90px;
+  font-size: medium;
+  font: bolder;
+  font-weight: 700;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.512);
+}
+.mainPage {
+  display: flex;
+}
+.leftPage {
+  display: block;
+  position: static;
+  margin: 10px;
+  width: 40%;
+  height: 90vh;
+  background-image: linear-gradient(
+    to bottom,
+    #1b1c20,
+    #1e1c21,
+    #171518,
+    #0f0c0e,
+    #000000
+  );
+  border-radius: 10px;
+}
+.yourLibrary {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  margin: 10px;
+}
+.CreatePlaylist {
+  display: block;
+}
+
+.ndimg {
+  align-items: center;
+}
+.Yt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+}
+.Yt > h1 {
+  height: inherit;
+  margin: 10px;
+  text-align: center;
+  font-size: large;
+}
+.Yt :hover {
+  color: rgba(255, 255, 255, 0.466);
+  height: inherit;
+  text-align: center;
+  font-size: large;
+}
+.list1 {
+  display: block;
+  background-color: rgba(36, 35, 35, 0.971);
+  justify-content: center;
+  height: 45%;
+  width: 90%;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+.list1 > h1 {
+  font-size: large;
+  margin: 5px;
+}
+.list1 > h2 {
+  font-size: medium;
+  margin: 5px;
+}
+.list1 > button {
+  color: black;
+  font-weight: 600;
+  padding: 7px 10px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  margin: 5px;
+}
+.list1 > button:hover {
+  background-color: rgba(255, 255, 255, 0.545);
+}
+.CreatePlaylist {
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  justify-items: center;
+  overflow-y: scroll;
+  scroll-snap-type: initial;
+  height: 40%;
+  width: 100%;
+}
+.CreatePlaylist::-webkit-scrollbar-thumb {
+  background-color: rgba(245, 245, 242, 0.423);
+  visibility: hidden;
+}
+.CreatePlaylist::-webkit-scrollbar-thumb:hover {
+  visibility: visible;
+}
+.CreatePlaylist::-webkit-scrollbar {
+  visibility: hidden;
+  width: 15px;
+}
+
+.CreatePlaylist::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0);
+}
+.podcast {
+  display: block;
+}
+.termsCon {
+  display: block;
+  font-size: small;
+  height: auto;
+  margin-top: 40px;
+}
+.row ul {
+  display: flex;
+  margin: 5px;
+  text-decoration: none;
+  list-style: none;
+}
+.row > ul > li {
+  margin: 5px 15px;
+}
+.row > ul > li:hover {
+  color: rgba(255, 255, 255, 0.545);
+}
+.termsCon > button {
+  display: block;
+  margin: 10%;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  font-weight: 100;
+}
+.termsCon > button > img {
+  align-self: center;
+  margin-right: 5px;
+}
+.termsCon > button:hover {
+  color: rgba(255, 255, 255, 0.545);
+  border-color: rgba(255, 255, 255, 0.545);
+}
+
+.footer {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+
+  z-index: 100;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  height: 9%;
+  width: 100%;
+  top: 91%;
+}
+.Ftext > h1,
+h2 {
+  font-size: medium;
+  margin: 5px 20px;
+}
+.sinupbtn {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.sinupbtn > button {
+  color: black;
+  text-align: center;
+  background-color: white;
+
+  font-size: medium;
+  font-weight: 600;
+  width: auto;
+  padding: 15px 15px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+.sinupbtn > button:hover {
+  background-color: rgba(255, 255, 255, 0.674);
+}
+.rightPage {
+  display: block;
+  margin: 5px 0px;
+  background-image: linear-gradient(
+    to bottom,
+    #23242a,
+    #1e1c21,
+    #171518,
+    #0f0c0e,
+    #000000
+  );
+  height: 85vh;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.rightPage::-webkit-scrollbar-thumb {
+  background-color: rgba(245, 245, 242, 0.423);
+  visibility: hidden;
+}
+.rightPage::-webkit-scrollbar-thumb:hover {
+  visibility: visible;
+}
+.rightPage::-webkit-scrollbar {
+  visibility: hidden;
+  width: 10px;
+}
+
+.rightPage::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0);
+}
+.fisrtSection {
+  display: block;
+  height: 50%;
+  background: transparent;
+  padding-bottom:3%;
+}
+.titles {
+  display: flex;
+  background-color: transparent;
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Maintitle {
+  display: flex;
+  font-size: x-large;
+  font-weight: 800;
+  padding: 10px 40px;
+}
+.Maintitle:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.866);
+}
+.showall > button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin: 0px 40px;
+  font-weight: 900;
+}
+.showall > button:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.866);
+}
+.mainCOntainer {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin: 0px 20px;
+}
+.mainStrem {
+  display: block;
+  position: relative;
+  max-width:17%;
+  max-height: 100%;
+  border: none;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.mainStrem:hover {
+  background-color: #232325;
+}
+.thambnail {
+  display: flex;
+  height: auto;
+  width: auto;
+}
+.thambnail > img {
+ border-radius: 50%;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 10px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio:1;
+}
+.names {
+  display: block;
+  position: relative;
+  padding: 15px;
+  z-index: 10;
+}
+.ArtistName {
+  font-size: medium;
+  font-weight: 600;
+}
+.ArtistName:hover {
+  color: rgba(255, 255, 255, 0.699);
+  text-decoration: underline;
+}
+.Artist {
+  font-size: small;
+  color: rgba(255, 255, 255, 0.699);
+}
+.btnplay {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+
+  opacity: 0;
+}
+.btnplay:hover {
+  opacity: 1;
+  transition: all 70ms ease 70ms;
+  transition-property: all;
+  cursor: pointer;
+}
+
+.play {
+  display: flex;
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  z-index: 1;
+  background-color: transparent;
+  opacity: 0.8;
+  outline: none;
+  border: none;
+  box-shadow: #000000;
+}
+.play:hover {
+  opacity: 1;
+
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+
+
+/* for 2 section */
+.fisrtSection_2 {
+  display: block;
+  height: 50%;
+  background: transparent;
+  padding-bottom:6%;
+}
+.mainStrem_1 {
+  display: block;
+  position: relative;
+  max-width:17%;
+  max-height: 100%;
+  border: none;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.mainStrem_1:hover {
+  background-color: #232325;
+}
+.thambnail_1 {
+  display: flex;
+  height: auto;
+  width: auto;
+}
+.thambnail_1 > img {
+ border-radius:20px;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 10px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio:1;
+}
+.names_1 {
+  display: block;
+  position: relative;
+  padding: 15px;
+  z-index: 10;
+}
+.ArtistName_1 {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.Artist_1 {
+  font-size: small;
+  color: rgba(255, 255, 255, 0.699);
+}
+
+.btnplay_1 {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+
+  opacity: 0;
+}
+.btnplay_1:hover {
+  opacity: 1;
+  transition: all 70ms ease 70ms;
+  transition-property: all;
+  cursor: pointer;
+}
+
+.play_1 {
+  display: flex;
+  position: absolute;
+  left: 55%;
+  top: 45%;
+  z-index: 1;
+  background-color: transparent;
+  opacity: 0.8;
+  outline: none;
+  border: none;
+  box-shadow: #000000;
+}
+.play_1:hover {
+  opacity: 1;
+
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+/* section_3 */
+
+
+.MainPgfoot{
+  position: relative;
+  background-color: transparent;
+  display: flex;
+}
+.support
+{
+  display: flex;
+  margin: 5%;
+
+}
+.container
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  
+  gap: 30px;
+}
+.item
+{
+  display: block;
+  margin: 10px;
+}
+.item1
+{
+  display: block;
+  font-size: large;
+  color: rgba(255, 255, 255, 0.449);
+
+}
+.item:hover
+{
+  display: block;
+  font-size: large;
+  color: rgba(255, 255, 255, 0.699);
+  text-decoration: underline;
+
+}
+
+.social
+{
+  display: flex;
+  height: auto;
+  width: 40%;
+  float:right;
+  align-items:start;
+  justify-content: end;
+}
+.svg {
+  display: flex;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(77, 75, 75, 0.453);
+  margin: 15px;
+}
+.svg:hover{
+background-color: rgba(77, 75, 75, 0.975);;
+}
+hr
+{
+  background-color: rgba(95, 90, 90, 0.219);
+  width: 80%;
+  margin: 0px 80px;
+}
+footer
+{
+  
+  display: block;
+  height: 20%;
+  width: 100%;
+  margin: 7%;
+}
